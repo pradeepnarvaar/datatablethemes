@@ -124,7 +124,7 @@ return [
         //  Start Site Configuration Menu
         
         [
-            'text'    => 'Admin Details',
+            'text'    => 'Company Details',
             'icon'    => 'cog',
             'submenu' => [
                 [
@@ -180,6 +180,11 @@ return [
             'text' => 'Holidays Request',
             'url'  => 'admin/settings',
             'icon' => 'credit-card',
+        ],
+        [
+            'text' => 'Member Querry',
+            'url'  => 'admin/settings',
+            'icon' => 'comments',
         ],
 
         // Start All Reports Menu
