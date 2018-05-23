@@ -25,3 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/admin', 'AdminController@index')->name('index');
 Route::get('/view', 'AdminController@create')->name('view');
+// Company Route
+
+Route::get('/company','CompanyController@index' )->name('company');
+Route::get('/company/add','CompanyController@create' )->name('addcompany');

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'The Holidays Clubs',
+    'title' => 'Raliway BPC Create',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>The Holiday</b>Clubs',
+    'logo' => '<b>Raliway</b>BPC',
 
-    'logo_mini' => '<b>T</b>HC',
+    'logo_mini' => '<b>RBP</b>C',
 
     /*
     |--------------------------------------------------------------------------
@@ -116,7 +116,7 @@ return [
         ],
         [
             'text'        => 'Dashboard',
-            'url'         => 'admin/pages',
+            'url'         => '/home',
             'icon'        => 'dashboard',
             'label_color' => 'success',
         ],
@@ -125,27 +125,13 @@ return [
         
         [
             'text'    => 'Company Details',
-            'icon'    => 'cog',
+            'icon'    => 'television',
+
             'submenu' => [
-                [
-                    'text' => 'Admin User',
-                    'url'  => '/admin',
-                    'icon' => 'user',
-                ],
-                [
-                    'text'    => 'User Role',
-                    'url'     => '#',
-                    'icon' =>'id-badge',
-                   
-                ],
-                [
-                    'text' => 'Locations',
-                    'url'  => '#',
-                    'icon' => 'map-marker',
-                ],
+                
                  [
                     'text' => 'Configuration',
-                    'url'  => '#',
+                    'url'  => '/company',
                     'icon' => 'cog',
                 ],
             ],
@@ -155,37 +141,11 @@ return [
         
 
         [
-            'text'       => 'Vouchers',
+            'text'       => 'Add Party',
             'icon_color' => 'red',
             'icon' => 'gift',
         ],
-        [
-            'text' => 'Members',
-            'url'  => 'admin/settings',
-            'icon' => 'users',
-        ],
         
-        
-        [
-            'text'       => 'Payment Update',
-            // 'icon_color' => 'yellow',
-            'icon' =>'cc-mastercard',
-        ],
-        [
-            'text'       => 'AMC Update',
-            // 'icon_color' => 'aqua',
-            'icon' => 'credit-card',
-        ],
-        [
-            'text' => 'Holidays Request',
-            'url'  => 'admin/settings',
-            'icon' => 'credit-card',
-        ],
-        [
-            'text' => 'Member Querry',
-            'url'  => 'admin/settings',
-            'icon' => 'comments',
-        ],
 
         // Start All Reports Menu
         'Reports',
